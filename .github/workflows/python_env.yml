@@ -12,7 +12,7 @@ jobs:
     
     - name: Install Python dependencies
       run: |
-        python -m pip install matplotlib numpy
+        python -m pip install matplotlib numpy git+https://github.com/deeplycloudy/xlma-python
 
     - name: Hello World 
       run: |
